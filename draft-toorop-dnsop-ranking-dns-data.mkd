@@ -1,9 +1,9 @@
 ---
 title: Ranking Domain Name System data
 abbrev: Ranking DNS data
-docname: draft-toorop-dnsop-ranking-dns-data-00
+docname: draft-toorop-dnsop-ranking-dns-data-01
 updates: 2181
-date: 2024-03-04
+date: 2024-03-17
 
 ipr: trust200902
 submissiontype: IETF
@@ -70,7 +70,7 @@ Trustworthiness values        {#trustworthiness}
 
 | Value | Data                                                |
 |-------|-----------------------------------------------------|
-| AAA   | Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off were it came from |
+| AAA   | Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off where it came from |
 | AA    | Data from a zone transfer other than occluded data |
 | A     | The authoritative data included in the answer section of an authoritative reply |
 | A-    | Data from the authority section of an authoritative answer |
@@ -90,7 +90,7 @@ The process of replacing RRsets in a resolvers cache with the RRsets with a high
 
 --- back
 
-Acknowledgements              {#acknowledgements}
-================
+Acknowledgments              {#acknowledgments}
+===============
 Thanks to all the people that contributed to the discussion surrounding the re-evaluation of how the trustworthiness of DNS data should be ranked.
 
