@@ -1,0 +1,96 @@
+---
+title: Ranking Domain Name System data
+abbrev: Ranking DNS data
+docname: draft-toorop-dnsop-ranking-dns-data-00
+updates: 2181
+date: 2024-03-04
+
+ipr: trust200902
+submissiontype: IETF
+area: Operations and Management Area
+wg: Domain Name System Operations
+kw:
+  - Internet-Draft
+  - DNS
+  - Resolver
+  - Delegation
+  - Revalidation
+  - Authoritative
+  - Name Server Record
+  - NS
+  - Parent
+  - Child
+  - Resource Record Set
+cat: std
+venue:
+  group: DNSOP
+  mail: dnsop@ietf.org
+  github: NLnetLabs/draft-toorop-dnsop-ranking-dns-data
+
+pi: [toc, sortrefs, symrefs]
+
+author:
+  -
+    ins: P. Hoffman
+    name: Paul Hoffman
+    organization: ICANN
+    email: paul.hoffman@icann.org
+  -
+    ins: S. Huque
+    name: Shumon Huque
+    organization: Salesforce
+    email: shuque@gmail.com
+  -
+    ins: W. Toorop
+    name: Willem Toorop
+    organization: NLnet Labs
+    street: Science Park 400
+    city: Amsterdam
+    code: 1098 XH
+    country: Netherlands
+    email: willem@nlnetlabs.nl
+
+normative:
+    RFC2181:
+
+--- abstract
+
+This document extends the list ranking the trustworthiness of domain name system (DNS) data (see {{Section 5.4.1 of RFC2181}}). 
+The list is extended with entries for root server names and addresses built-in resolvers, and provided via a root hints file with the lowest trustworthiness, as wel as an entry for data which is verifiable DNSSEC secure with the highest trustworthiness.
+This document furthermore assigns ranked values to the positions of the list for easier reference and comparison of trustworthiness of DNS data.
+
+--- middle
+
+Introduction                  {#intro}
+============
+This draft's intention is currently just to start re-evaluation and re-thinking of {{RFC2181, Section 5.4.1}} about ranking trustworthiness of DNS data.
+
+Trustworthiness values        {#trustworthiness}
+======================
+
+| Value | Data                                                |
+|-------|-----------------------------------------------------|
+| AAA   | Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off were it came from |
+| AA    | Data from a zone transfer other than occluded data |
+| A     | The authoritative data included in the answer section of an authoritative reply |
+| A-    | Data from the authority section of an authoritative answer |
+| BBB   | Occluded data from a primary zone, or occluded data from a zone transfer |
+| BB    | Data from the answer section of a non-authoritative answer, and non-authoritative data from the answer section of authoritative answers |
+| B     | Additional information from an authoritative answer, Data from the authority section of a non-authoritative answer, Additional information from non-authoritative answers. |
+| CCC    | Names and addresses for the root servers from a hints file |
+| CC   | Names and addresses for the root servers built into resolver software |
+
+IANA Considerations           {#iana}
+===================
+This document does not require any IANA actions.
+
+Security Considerations       {#security}
+=======================
+The process of replacing RRsets in a resolvers cache with the RRsets with a higher trustworthiness ranking, either passively or pro-actively by explicit querying, is crucial to the security of the DNS.
+
+--- back
+
+Acknowledgements              {#acknowledgements}
+================
+Thanks to all the people that contributed to the discussion surrounding the re-evaluation of how the trustworthiness of DNS data should be ranked.
+
