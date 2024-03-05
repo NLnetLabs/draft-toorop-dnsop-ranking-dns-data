@@ -93,7 +93,7 @@ This document furthermore assigns ranked values to the positions of the list for
       <ttcol align='left'>Value</ttcol>
       <ttcol align='left'>Data</ttcol>
       <c>AAA</c>
-      <c>Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off where it came from</c>
+      <c>Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless of where it came from</c>
       <c>AA</c>
       <c>Data from a zone transfer other than occluded data</c>
       <c>A</c>
@@ -170,16 +170,16 @@ yDeOAnjdSKc9ksDyh3nc9vFBoketi6JSQqAhOlu0KX0Hz80Tzft34lXv6Tzi
 9vKTRxEhofE0FhES7nPVhv5pORYWtSEdOKYy7qBtrJ+IFysMLjIP6G5uOsac
 0A6X7u5AZNv2WPqoZ1d7u11I773ZO73rV89DcUt/8FG6pTfMgx98bsVtlp7t
 7489OE/j8Zg1JfsLZ2twu3G6luDnV2tUYrdlMoEeoK7N86rlOuBYpNKQVZV4
-DIHwKI0dpp0DIWJEF+A9qEU6UM5lH60nTHSAKWJBpzEedHwQTzqegkPcD2R/
-gCYRbboDqHEmPFSuocx3fECmoXX3nFMNuBZ1Z/vQQs/K5lEtnSFW8/r166jm
-0w74I+E/wUjYc/FoQJLSo9gO3SNjTXYMW0rn4W7xfxqP6PIJU5eLcVHENiMr
-hH2RBgrOJl+OB+rku4L8iC+P2XzolB9E2JPJJOGeHpkQ3BwZUG+S+G1WehMh
-6fkxLXH4cK+z9+MHN6ZFWONeB4Xiw3g6pgm6NSbR9qa600ZxYz3abfbGQ2GB
-wFjumF9azTPCbCgqlzG0mCdixiXL4T5q7+aJ7/Yf6m6v4kDG2My7BspVJHPu
-rpeXXgXu6TxIt2MWTSAve5OuE4rfMs09d9CXu359QkrHltDwsFspVCvCC9sZ
-+xO/5xtcCppK46JEuKe5TTzGw8S1uQZHuoG4dWs7D9HAulk2l/m1EOP82th1
-pYolR7If/hgVubt9EBwEBZDj+OW2GUewsg34EptnbvmqMm8Dqr0DVGift/Hv
-FfKYe7jBFdt71O68A+DSrh+6YG3HF+6ptq0KmqvuQgDv/gN6lj6euA0AAA==
+DIHwKI0dpp0DIVJE11CqSAfKueqj8QSJDiBFKGg0xoOND8JJx1NsiNuB7M/P
+JKJNdwAlznyHyjWU+Y4OgAWtu+ecakC1qDvbhxZ6VjaPaukMsZrXr19HNZ92
+wB+J/gkmwp6LRwOSlB7FdugeGWuyY9hSNg93i//TeESXT5i6XIyLInYZWSHs
+izRPcDb5cjxQJ98V5Ed8eczmQ6f8IMKeTCYJ9/TIgODeyIB6g8Rvs9IbCEnP
+j2mJs4dbnb2fPrgwLcIa1zooFB/G0zFN0KwxiLYX1Z0uigvr0WazNx0KCwTG
+csP80moeEWZDUbmMocU4ETOuWA73UXs3T3y3/1BzexXnMaZm3lU7V5HMuble
+XnoVuKXzHN1OWTSBvOwNuk4ofss09txBW+7a9QkpHVtCw7NupVCtCC9sZ+xP
+/J5vcCdoKo17EuGa5jbxGM8S1+YaHOnm4dat7ThE/+pG2Vzm10KM82tj15Uq
+lhzJfvhjVOTu9kFwEBRAjtOXu2acwMo24Evsnbnlm8q8Daj2DlChfd7GP1fI
+Y+zhAldsr1G74w6AS7t+6H61nV64ptq2KmiuuvsAvPsPqAfsF7cNAAA=
 
 -->
 
