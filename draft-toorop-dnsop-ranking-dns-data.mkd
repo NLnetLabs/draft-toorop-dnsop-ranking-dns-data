@@ -3,7 +3,6 @@ title: Ranking Domain Name System data
 abbrev: Ranking DNS data
 docname: draft-toorop-dnsop-ranking-dns-data-01
 updates: 2181
-date: 2024-03-17
 
 ipr: trust200902
 submissiontype: IETF
@@ -54,6 +53,20 @@ normative:
     RFC2181:
 
 --- abstract
+
+<!--
+
+=====
+From Duane to DNSOP 2024-03-06:
+
+RFC 2181 says "Data from a zone transfer, other than glue” but this draft doesn’t make any exceptions for glue or non-authoritative data from a zone transfer.  Is that intentional?
+
+Should RFC 8767 stale data be ranked differently than fresh data?
+
+Should EDNS Client Subnet play into ranking?
+=====
+
+-->
 
 This document extends the list ranking the trustworthiness of domain name system (DNS) data (see {{Section 5.4.1 of RFC2181}}). 
 The list is extended with entries for root server names and addresses built-in resolvers, and provided via a root hints file with the lowest trustworthiness, as wel as an entry for data which is verifiable DNSSEC secure with the highest trustworthiness.
