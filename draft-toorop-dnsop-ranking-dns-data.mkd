@@ -83,7 +83,7 @@ Trustworthiness values        {#trustworthiness}
 
 | Value | Data                                                |
 |-------|-----------------------------------------------------|
-| AAA   | Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off where it came from |
+| AAA   | Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless of where it came from |
 | AA    | Data from a zone transfer other than occluded data |
 | A     | The authoritative data included in the answer section of an authoritative reply |
 | A-    | Data from the authority section of an authoritative answer |

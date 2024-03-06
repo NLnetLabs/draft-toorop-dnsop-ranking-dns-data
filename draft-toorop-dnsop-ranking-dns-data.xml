@@ -107,7 +107,7 @@ This document furthermore assigns ranked values to the positions of the list for
       <ttcol align='left'>Value</ttcol>
       <ttcol align='left'>Data</ttcol>
       <c>AAA</c>
-      <c>Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless off where it came from</c>
+      <c>Data from a primary zone file other than occluded data, and all data that is verifiable DNSSEC secure regardless of where it came from</c>
       <c>AA</c>
       <c>Data from a zone transfer other than occluded data</c>
       <c>A</c>
@@ -161,45 +161,6 @@ This document furthermore assigns ranked values to the positions of the list for
 
   </back>
 
-<!-- ##markdown-source:
-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
-5V0XrPX4wk+BeMG7ug8iuv8B+HpsPgoPAAA=
-
--->
 
 </rfc>
 
