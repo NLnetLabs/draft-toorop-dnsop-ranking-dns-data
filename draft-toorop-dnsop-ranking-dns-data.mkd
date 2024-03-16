@@ -74,12 +74,12 @@ This document furthermore assigns ranked values to the positions of the list for
 
 --- middle
 
-Introduction                  {#intro}
-============
+# Introduction {#intro}
+
 This draft's intention is currently just to start re-evaluation and re-thinking of {{RFC2181, Section 5.4.1}} about ranking trustworthiness of DNS data.
 
-Trustworthiness values        {#trustworthiness}
-======================
+# Trustworthiness Values {#trustworthiness}
+
 
 | Value | Data                                                |
 |-------|-----------------------------------------------------|
@@ -93,17 +93,17 @@ Trustworthiness values        {#trustworthiness}
 | CCC    | Names and addresses for the root servers from a hints file |
 | CC   | Names and addresses for the root servers built into resolver software |
 
-IANA Considerations           {#iana}
-===================
+# IANA Considerations {#iana}
+
 This document does not require any IANA actions.
 
-Security Considerations       {#security}
-=======================
+# Security Considerations {#security}
+
 The process of replacing RRsets in a resolvers cache with the RRsets with a higher trustworthiness ranking, either passively or pro-actively by explicit querying, is crucial to the security of the DNS.
 
 --- back
 
-Acknowledgments              {#acknowledgments}
-===============
+# Acknowledgments {#acknowledgments}
+
 Thanks to all the people that contributed to the discussion surrounding the re-evaluation of how the trustworthiness of DNS data should be ranked.
 
